@@ -1,6 +1,6 @@
 "let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'php', 'javascript', 'twig', 'html', 'misc']
-"let g:spf13_bundle_groups=['general', 'programming', 'twig', 'html', 'misc']
-let g:spf13_bundle_groups=[]
+let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'php', 'twig', 'html', 'misc']
+"let g:spf13_bundle_groups=[]
 let g:override_spf13_bundles=1
 let g:spf13_no_autochdir = 1
 
@@ -43,8 +43,8 @@ Bundle 'tpope/vim-fugitive'
 "endif
 
 "Bundle 'Valloric/YouCompleteMe'
-"Bundle 'Shougo/neocomplcache'
-Bundle 'Shougo/neocomplete'
+Bundle 'Shougo/neocomplcache'
+"Bundle 'Shougo/neocomplete'
 Bundle 'Shougo/neosnippet'
 Bundle 'honza/vim-snippets'
 

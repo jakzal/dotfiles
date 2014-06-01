@@ -35,12 +35,14 @@ map <Leader><D-i> :call PhpExpandClass()<CR>
 " }
 
 " neocomplcache {
-"    let g:neocomplcache_enable_at_startup = 1
-"    let g:neocomplcache_enable_camel_case_completion = 0
-"    let g:neocomplcache_enable_underbar_completion = 0
+    let g:neocomplcache_enable_at_startup = 1
+    let g:neocomplcache_enable_camel_case_completion = 0
+    let g:neocomplcache_enable_underbar_completion = 0
+    let g:neocomplcache_cursor_hold_i_time = 1000
 " }
 
 " neocomplete {
+if has('g:neocomplete_enable')
     " Disable AutoComplPop.
     let g:acp_enableAtStartup = 0
     " Use neocomplete.
@@ -135,4 +137,5 @@ map <Leader><D-i> :call PhpExpandClass()<CR>
     " When enabled, there can be too much visual noise
     " especially when splits are used.
     set completeopt-=preview
+endif
 " }
