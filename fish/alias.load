@@ -1,0 +1,6 @@
+alias d="./bin/phpspec desc"
+alias r="./bin/phpspec run"
+alias b="./bin/behat"
+alias s="app/console"
+alias sf="cd ~/Projects/symfony"
+alias po="cd ~/Projects/BehatPageObjectExtension/"
