@@ -25,10 +25,12 @@ function fish_prompt
     if [ (_is_git_dirty) ]
       set -l dirty "$yellow ✗"
       set git_info "$git_info$dirty"
+    else
+      set git_info "$git_info$beer"
     end
   end
 
-  echo -n -s $arrow $cwd $git_info $normal $beer ' '
+  echo -n -s $arrow $cwd $git_info $normal ' '
 end
 
 
