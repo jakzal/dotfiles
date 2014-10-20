@@ -1,0 +1,2 @@
+set -gx RBENV_ROOT $HOME/.rbenv/
+. (rbenv init -|psub)
