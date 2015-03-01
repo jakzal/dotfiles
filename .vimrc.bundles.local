@@ -1,5 +1,5 @@
 "let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'php', 'javascript', 'twig', 'html', 'misc']
-let g:spf13_bundle_groups=['general', 'neocomplcache', 'programming', 'php', 'twig', 'html', 'misc']
+let g:spf13_bundle_groups=['general', 'misc']
 "let g:spf13_bundle_groups=[]
 let g:override_spf13_bundles=1
 let g:spf13_no_autochdir = 1
@@ -29,7 +29,7 @@ endif
 "Bundle 'myusuf3/numbers.vim'
 "Bundle 'nathanaelkane/vim-indent-guides'
 "Bundle 'vim-scripts/restore_view.vim'
-Bundle 'airblade/vim-gitgutter'
+"Bundle 'airblade/vim-gitgutter'
 "Bundle 'tpope/vim-abolish.git'
 
 "Bundle 'scrooloose/syntastic'
