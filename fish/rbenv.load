@@ -1,3 +1,4 @@
 set PATH $HOME/.rbenv/bin $PATH
 set -gx RBENV_ROOT $HOME/.rbenv/
 . (rbenv init -|psub)
+. $RBENV_ROOT/completions/rbenv.fish
