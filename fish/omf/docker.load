@@ -1,3 +1,1 @@
-set -x DOCKER_HOST tcp://192.168.59.103:2376
-set -x DOCKER_CERT_PATH /Users/jzalas/.boot2docker/certs/boot2docker-vm
-set -x DOCKER_TLS_VERIFY 1
+alias docker-terminal="bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'"
