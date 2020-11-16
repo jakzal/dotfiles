@@ -1,1 +1,2 @@
-status --is-interactive; and . (rbenv init -|psub)
+set PATH $HOME/.rbenv/bin $PATH
+status --is-interactive; and rbenv init - | source

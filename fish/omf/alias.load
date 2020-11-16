@@ -1,6 +1,3 @@
-alias d="./bin/phpspec desc"
-alias r="./bin/phpspec run"
-alias b="./bin/behat"
-alias s="app/console"
-alias sf="cd ~/Projects/symfony"
-alias po="cd ~/Projects/BehatPageObjectExtension/"
+alias uuid="curl -k https://www.uuidgenerator.net/api/version4"
+alias phpqa="docker run -it --rm -v (pwd):/project -w /project jakzal/phpqa:alpine"
+
