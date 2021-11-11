@@ -1,5 +1,4 @@
 source $OMF_CONFIG/alias.load
-source $OMF_CONFIG/composer.load
 source $OMF_CONFIG/jenv.load
 source $OMF_CONFIG/rbenv.load
 source $OMF_CONFIG/pyenv.load
