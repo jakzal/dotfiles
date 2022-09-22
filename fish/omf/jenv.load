@@ -1,3 +1,0 @@
-contains $HOME/.jenv/bin $fish_user_paths; or set -U fish_user_paths $HOME/.jenv/bin $fish_user_paths
-status --is-interactive; and source (jenv init -|psub)
-

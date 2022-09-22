@@ -4,6 +4,5 @@ contains /opt/homebrew/bin $fish_user_paths; or set -g fish_user_paths "/opt/hom
 contains /opt/homebrew/sbin $fish_user_paths; or set -g fish_user_paths "/opt/homebrew/sbin" $fish_user_paths
 set -g theme_color_scheme solarized-dark
 source $OMF_CONFIG/alias.load
-source $OMF_CONFIG/jenv.load
 source $OMF_CONFIG/rbenv.load
 source $OMF_CONFIG/pyenv.load
