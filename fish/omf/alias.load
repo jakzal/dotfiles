@@ -1,3 +1,0 @@
-alias uuid="curl -s -k https://www.uuidgenerator.net/api/version4"
-alias phpqa="docker run -it --rm -v (pwd):/project -w /project jakzal/phpqa:alpine"
-
